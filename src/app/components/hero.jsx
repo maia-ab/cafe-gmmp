@@ -6,7 +6,7 @@ function Hero() {
     <div className="relative">
       <Image
         className="object-cover h-[300px] md:h-[500px] lg:h-[700px]"
-        src="/Untitled-1.jpg"
+        src="/hero-image.jpg"
         alt="Imagen hero"
         width={1920}
         height={1080}
