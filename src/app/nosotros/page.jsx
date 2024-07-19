@@ -1,5 +1,10 @@
+import NuestroEquipo from "./nuestroEquipo";
+
 function ConocenosPage() {
-  return <main>Nuestra Historia </main>;
+  return <main>
+    <p>Nuestra Historia</p>
+    <NuestroEquipo /> 
+    </main>;
 }
 
 export default ConocenosPage;
