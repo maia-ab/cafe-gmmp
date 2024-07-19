@@ -10,14 +10,14 @@ const menu = [
         titulo: 'Iced Latte',
         imagenUrl: 'url',
         precio: 5000,
-        cantidad: 1,
+        cantidad: 0,
         id: 0
     },
     {
         titulo: 'Macchiatto',
         imagenUrl: 'url',
         precio: 5000,
-        cantidad: 2,
+        cantidad: 0,
         id: 0
     },
     {

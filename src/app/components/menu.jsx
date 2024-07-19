@@ -46,10 +46,7 @@ function Menu() {
           <div id="menu" className="grid grid-cols-3 gap-4">
             {menu.map((menuItem, i) => (
               <MenuItem
-                itemTitle={menuItem.titulo}
-                itemFoto={menuItem.imagenUrl}
-                itemPrecio={menuItem.precio}
-                itemCantidad={menuItem.cantidad}
+              item={menuItem}
               />
             ))}
           </div>

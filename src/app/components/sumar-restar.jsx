@@ -2,24 +2,23 @@ import { IoIosAddCircleOutline } from "react-icons/io";
 import { IoRemoveCircleOutline } from "react-icons/io5";
 import { useState } from "react";
 
-function SumarRestar({ itemCantidad }) {
-    function sumar() {
-        setCount(count + 1)
-    }
+function SumarRestar({ item }) {
+  function sumar() {
+    setcantidadItem(cantidadItem + 1);
 
-    function restar() {
-        if(count > 0)
-        setCount(count - 1)
-    }
+  }
 
-  const [count, setCount] = useState(0);
+  function restar() {
+    if (cantidadItem > 0) setcantidadItem(cantidadItem - 1);
+  }
+
+  const [cantidadItem, setcantidadItem] = useState(item.cantidad);
 
   return (
     <div className="flex gap-2 items-center">
-        
-      <IoIosAddCircleOutline onClick={sumar}  size={50} color="beige" />
+      <IoIosAddCircleOutline onClick={sumar} size={50} color="beige" />
       <div>
-      <p className="text-xl">{count}</p>
+        <p className="text-xl">{cantidadItem}</p>
       </div>
       <IoRemoveCircleOutline onClick={restar} size={50} color="beige" />
     </div>
