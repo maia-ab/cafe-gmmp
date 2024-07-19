@@ -23,7 +23,7 @@ function Menu() {
             <MenuItem itemTitle={foto.title} itemFoto={`${foto.image}`} />
           ))}
         </div>
-        <div className="w-[500px] bg-dark-brown rounded-tl-3xl rounded-br-3xl px-8 py-24 text-beige flex flex-col items-center gap-8">
+        <div className="w-[500px] bg-dark-brown rounded-tl-3xl rounded-tr-md rounded-br-3xl rounded-bl-md px-8 py-24 text-beige flex flex-col items-center gap-8">
           <h2 className="text-5xl">Tu Orden</h2>
           <OrderItem />
           <OrderItem />
