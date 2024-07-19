@@ -3,9 +3,11 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import MenuItem from "./menuItem";
-import OrderItem from "./orderItem";
 
-function Menu() {
+import menu from "../data/data";
+import MenuOrder from "./menuOrder";
+
+/*function Menu() {
   const [fotos, setFotos] = useState([]);
 
   useEffect(() => {
@@ -30,6 +32,30 @@ function Menu() {
           <OrderItem />
           <p className="text-3xl">Total:</p>
           <button className="bg-coconut h-[50px] w-[300px] rounded-2xl text-2xl"> Ordenar </button>
+        </div>
+      </div>
+    </>
+  );
+}*/
+
+function Menu() {
+  return (
+    <>
+      <div className="flex justify-center items-center">
+        <div className="flex gap-32 p-24 justify-center">
+          <div id="menu" className="grid grid-cols-3 gap-4">
+            {menu.map((menuItem, i) => (
+              <MenuItem
+                itemTitle={menuItem.titulo}
+                itemFoto={menuItem.imagenUrl}
+                itemPrecio={menuItem.precio}
+                itemCantidad={menuItem.cantidad}
+              />
+            ))}
+          </div>
+        </div>
+        <div>
+          <MenuOrder />
         </div>
       </div>
     </>

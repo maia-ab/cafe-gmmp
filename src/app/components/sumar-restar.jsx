@@ -2,7 +2,7 @@ import { IoIosAddCircleOutline } from "react-icons/io";
 import { IoRemoveCircleOutline } from "react-icons/io5";
 import { useState } from "react";
 
-function SumarRestar() {
+function SumarRestar({ itemCantidad }) {
     function sumar() {
         setCount(count + 1)
     }
