@@ -5,7 +5,7 @@ import { useState } from "react";
 function SumarRestar({ item }) {
   function sumar() {
     setcantidadItem(cantidadItem + 1);
-
+    setOrden(orden.push(item))
   }
 
   function restar() {
@@ -13,6 +13,7 @@ function SumarRestar({ item }) {
   }
 
   const [cantidadItem, setcantidadItem] = useState(item.cantidad);
+  const [orden, setOrden] = useState([]);
 
   return (
     <div className="flex gap-2 items-center">
