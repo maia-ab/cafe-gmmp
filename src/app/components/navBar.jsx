@@ -25,9 +25,9 @@ const navLinks = [
 function NavBar() {
   return (
     <>
-      <ul className="">
+      <ul className="flex gap-14 ml-auto ">
         {navLinks.map((link) => (
-          <li className="text-red-700" key={link.href}>
+          <li className="text-beige text-3xl hover:text-[#FFFCF8]" key={link.href}>
             <Link href={link.href}>{link.label}</Link>
           </li>
         ))}

@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 function Header() {
   return (
-    <div className='bg-blue-400'>
+    <div className='flex items-center bg-forest-green h-[80px] px-16'>
          <Link href={"/"}> Logo </Link>
         < NavBar/>
     </div>

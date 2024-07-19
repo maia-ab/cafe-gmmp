@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 import MenuItem from './menuItem';
 
 
-function Galeria() {
+function Menu() {
   const [ fotos, setFotos ] = useState([]);
 
   useEffect(() => {
@@ -28,5 +28,5 @@ function Galeria() {
   
 }
 
-export default Galeria
+export default Menu
 
