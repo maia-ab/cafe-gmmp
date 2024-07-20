@@ -10,7 +10,7 @@ function ConocenosPage() {
         TF="true"
         imagePath="nosotros-cafe.png"
         titulo="Nuestra Historia"
-        texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra. Duis a arcu convallis, gravida purus eget, mollis diam."
+        texto="Desde nuestra apertura, nuestra cafetería se ha convertido en un rincón acogedor para los amantes del buen café y la repostería artesanal. Inspirados en las tradicionales cafeterías europeas y coreanas. Cada taza de café como tortas se preparan con dedicación y pasión, utilizando ingredientes frescos y recetas auténticas. Ven a descubrir nuestro espacio, donde cada visita se convierte en una experiencia memorable."
       />
       </div>
       <NuestroEquipo />
