@@ -1,4 +1,4 @@
-import Newsletter from "../components/newsletter";
+import Newsletter from "./newsletter";
 import FTTF from "../components/tfft";
 import NuestroEquipo from "./nuestroEquipo";
 
