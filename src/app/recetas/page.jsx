@@ -1,5 +1,6 @@
 import Titulo from "../components/titulo";
 import FTTF from "../components/tfft";
+import CafeReceta from "./cafeReceta";
 
 function RecetasPage() {
   return (
@@ -26,6 +27,7 @@ function RecetasPage() {
         titulo="Chocotorta"
         texto="Disfruta de la clásica Chocotorta, un postre argentino que combina lo mejor del chocolate y el dulce de leche. Capas alternadas de galletas de chocolate y una mezcla cremosa de dulce de leche y queso crema se unen para crear una textura suave y deliciosa. Perfecta para los amantes del chocolate y dulce de leche. No te la pierdas con un Americano!"
       />
+      <CafeReceta />
     </main>
   );
 }

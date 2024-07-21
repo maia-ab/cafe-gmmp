@@ -14,7 +14,7 @@ const rutas = [
     },
     ,
     {
-      href: "/#contacto",
+      href: "/contacto",
       label: "Contacto",
     },
   ];
