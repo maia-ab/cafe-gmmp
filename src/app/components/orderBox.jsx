@@ -7,7 +7,7 @@ function OrderBox() {
   const orden = menu.filter((item) => item.cantidad > 0);
   const total = orden.reduce((acc, item) => acc + item.precio * item.cantidad, 0)                       ;
   return (
-    <div className="w-[500px] bg-dark-brown rounded-tl-3xl rounded-tr-md rounded-br-3xl rounded-bl-md px-8 py-24 text-beige flex flex-col items-center gap-8">
+    <div className=" bg-dark-brown rounded-tl-3xl rounded-tr-md rounded-br-3xl rounded-bl-md px-8 py-24 text-beige flex flex-col items-center gap-8">
       <h2 className="text-5xl">Tu Orden</h2>
       <div>
         {orden.map((item) => (
