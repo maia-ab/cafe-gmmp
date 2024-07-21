@@ -9,20 +9,12 @@ function SumarRestar({ item }) {
     useContext(MenuContext);
 
   function sumar() {
-    if (item.cantidad === 0) {
-      agregarAOrden(item);
-    }
     sumarCantidad(item.id);
   }
 
   function restar() {
-    if (item.cantidad === 1) {
-      eliminarDeOrden(item);
+    if (item.cantidad > 0) {
       restarCantidad(item.id);
-      
-    } else if (item.cantidad > 0) {
-      restarCantidad(item.id);
-      
     }
   }
 
