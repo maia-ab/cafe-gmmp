@@ -15,7 +15,7 @@ function Newsletter() {
       <form onSubmit={handleSubmit} className="flex flex-col items-center space-y-4">
         <label className="flex items-center text-beige text-4xl mx-12">Subscribite a nuestro newsletter!</label>
         <div className="flex justify-center items-center">
-        <input className="bg-beige px-40 py-2 rounded-2xl w-[500px]"
+        <input className="bg-beige px-20 py-2 rounded-2xl max-w-[400px]"
           type="email"
           placeholder="lorem@ipsumgmail.com"
           value={email}

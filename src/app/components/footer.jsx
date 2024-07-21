@@ -6,7 +6,7 @@ function Footer() {
   return <div className="bg-black h-40 flex items-center justify-center">
       <ul className="lg:flex lg:justify-center lg:gap-16">
         {nombres.map((nombre, i) => (
-          <li className="text-white" key={i}>
+          <li className="text-white text-2xl" key={i}>
             {nombres[i]}
           </li>
         ))}

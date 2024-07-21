@@ -4,10 +4,10 @@ import Titulo from "../components/titulo";
 
 export default function NuestroEquipo() {
   return (
-    <div className="flex flex-wrap justify-center bg-forest-green">
+    <div className="flex flex-wrap justify-center items-center bg-forest-green">
       <Titulo
         texto={"Nuestro equipo"}
-        estilo="w-[500px] border-beige border-t m-2"
+        estilo="w-[500px] border-t border-beige m-2"
         color="beige"
       />
       <div className="flex flex-wrap justify-center bg-forest-green px-16">
