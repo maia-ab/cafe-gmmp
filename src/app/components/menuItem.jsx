@@ -1,8 +1,12 @@
 "use client";
 import React from "react";
 import SumarRestar from "./sumar-restar";
+import { useContext } from "react";
+import { MenuContext } from "../context/MenuContext";
 
 function MenuItem({ itemTitle, itemFoto }) {
+  useContext(MenuContext);
+
   return (
     <>
       <div className="bg-forest-green w-[250px] h-[400px] rounded-tl-3xl rounded-tr-md rounded-br-3xl rounded-bl-md  m-2 transform transition-transform  hover:scale-110 hover:shadow-2xl">
@@ -11,7 +15,7 @@ function MenuItem({ itemTitle, itemFoto }) {
         </div>
         <div className="flex flex-col gap-3 items-center rounded-b-3xl h-20 text-beige">
           <p className="text-3xl">{itemTitle}</p>
-          <p>$5000</p>
+          <p>5000</p>
           <SumarRestar />
         </div>
       </div>
