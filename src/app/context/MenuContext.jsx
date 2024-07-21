@@ -9,8 +9,14 @@ export function MenuContextProvider(props) {
   const [menu, setMenu] = useState(menuLista);
   const [orden, setOrden] = useState([]);
 
-  function actualizarOrden() {
-    setOrden(menu.filter((item) => item.cantidad > 0));
+
+  function agregarAOrden(item) {
+    setOrden([...orden, item]);
+  }
+
+  function eliminarDeOrden(item) {
+    const ordenActualizada = orden.filter((ordenItem) => ordenItem.id !== item.id);
+    setOrden(ordenActualizada);
   }
 
   function sumarCantidad(id) {
@@ -22,11 +28,13 @@ export function MenuContextProvider(props) {
   }
 
   function restarCantidad(id) {
+    
     setMenu(
       menu.map((item) =>
         item.id === id ? { ...item, cantidad: item.cantidad - 1 } : item
       )
     );
+
   }
 
   return (
@@ -34,9 +42,10 @@ export function MenuContextProvider(props) {
       value={{
         menu,
         orden,
+        agregarAOrden,
+        eliminarDeOrden,
         sumarCantidad,
         restarCantidad,
-        actualizarOrden,
       }}
     >
       {props.children}
