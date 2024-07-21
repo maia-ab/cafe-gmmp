@@ -17,7 +17,7 @@ const navLinks = [
   },
   ,
   {
-    href: "/#contacto",
+    href: "/contacto",
     label: "Contacto",
   },
 ];
