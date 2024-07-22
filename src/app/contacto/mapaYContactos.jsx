@@ -1,12 +1,16 @@
 import React from "react";
-import { FaMapPin, FaInstagram } from "react-icons/fa";
+import { FaMapPin, FaInstagram, FaClock } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 import Titulo from "../components/titulo";
 
 export default function MapaYContactos() {
   return (
     <div className="flex flex-col items-center justify-center h-[1000px] md:h-[800px]">
-      <Titulo texto={"Contacto"} estilo="w-[500px]  border-t border-dark-brown m-2" color="dark-brown" />
+      <Titulo
+        texto={"Contacto"}
+        estilo="w-[500px]  border-t border-dark-brown m-2"
+        color="dark-brown"
+      />
       <div className="flex p-8 max-w-[1200px]">
         <div className="flex flex-col lg:flex-row items-center w-full">
           <div className="flex-shrink-0 lg:mr-8 lg:border-r lg:border-dark-brown lg:pr-8">
@@ -21,17 +25,21 @@ export default function MapaYContactos() {
             <br />
           </div>
           <div className="flex-1 lg:ml-8">
-            <h1 className="flex text-3xl text-dark-brown mb-4">
-              <FaMapPin /> <span> - Origone 151, Hurlingham</span>
-            </h1>
+            <h2 className="flex text-3xl text-dark-brown mb-4">
+              <FaMapPin /> <span className="ml-3"> Origone 151, Hurlingham</span>
+            </h2>
             <br />
-            <h1 className="flex text-3xl text-dark-brown mb-4">
-              <FaInstagram /> <span> - @cafegmmp</span>
-            </h1>
+            <h2 className="flex text-3xl text-dark-brown mb-4">
+              <FaInstagram /> <span className="ml-3"> @cafegmmp</span>
+            </h2>
             <br />
-            <h1 className="flex text-3xl text-dark-brown mb-4">
-              <CiMail /> <span> - contacto@cafegmmp.com</span>
-            </h1>
+            <h2 className="flex text-3xl text-dark-brown mb-4">
+              <CiMail /> <span className="ml-3"> contacto@cafegmmp.com</span>
+            </h2>
+            <br />
+            <h2 className="flex text-3xl text-dark-brown mb-4">
+              <FaClock /> <span className="ml-3">9:00am a 18:00pm</span>
+            </h2>
             <br />
           </div>
         </div>
