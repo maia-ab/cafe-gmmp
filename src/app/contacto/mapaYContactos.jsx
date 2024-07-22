@@ -19,15 +19,15 @@ export default function MapaYContactos() {
           </div>
           <div className="flex-1 lg:ml-8">
             <h1 className="flex text-3xl text-dark-brown mb-4">
-              <FaMapPin /> <span>Origone 151, Hurlingham</span>
+              <FaMapPin /> <span> - Origone 151, Hurlingham</span>
             </h1>
             <br/>
             <h1 className="flex text-3xl text-dark-brown mb-4">
-              <FaInstagram /> <span>@cafegmmp</span>
+              <FaInstagram /> <span> - @cafegmmp</span>
             </h1>
             <br/>
             <h1 className="flex text-3xl text-dark-brown mb-4">
-              <CiMail /> <span>contacto@cafegmmp.com</span>
+              <CiMail /> <span> - contacto@cafegmmp.com</span>
             </h1>
             <br/>
           </div>
