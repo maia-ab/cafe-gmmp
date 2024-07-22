@@ -9,7 +9,7 @@ export default function Home() {
     <MenuContextProvider>
       <main>
         <Hero />
-        <Titulo texto={"Menu"} estilo="w-[500px]  border-t border-dark-brown m-2" />
+        <Titulo texto={"Menu"} estilo="w-[500px]  border-t border-dark-brown m-2"color="dark-brown"/>
         <Menu />
         <Galeria />
       </main>

@@ -1,12 +1,12 @@
 import Newsletter from "./newsletter";
-import FTTF from "../components/imageTextComponent";
+import ImageTextComponent from "../components/imageTextComponent";
 import NuestroEquipo from "./nuestroEquipo";
 
 function ConocenosPage() {
   return (
     <main>
       <div className="py-14">
-        <FTTF
+        <ImageTextComponent
           TF="true"
           imagePath="nosotros-cafe.png"
           titulo="Nuestra Historia"

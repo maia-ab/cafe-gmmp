@@ -13,7 +13,7 @@ function Newsletter() {
   return (
     <div className="flex flex-col items-center bg-dark-brown h-[350px] px-16 justify-center">
       <form onSubmit={handleSubmit} className="flex flex-col items-center space-y-4">
-        <label className="flex items-center text-beige text-4xl mx-12">Subscribite a nuestro newsletter!</label>
+        <label className="flex text-center items-center text-beige text-4xl mx-12">Subscribite a nuestro newsletter!</label>
         <div className="flex justify-center items-center">
         <input className="bg-beige px-20 py-2 rounded-2xl max-w-[400px]"
           type="email"
