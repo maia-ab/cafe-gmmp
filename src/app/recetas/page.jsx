@@ -1,5 +1,5 @@
 import Titulo from "../components/titulo";
-import FTTF from "../components/tfft";
+import FTTF from "../components/imageTextComponent";
 import CafeReceta from "./cafeReceta";
 
 function RecetasPage() {
