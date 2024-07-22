@@ -10,7 +10,7 @@ const rutas = [
     ,
     {
       href: "/#menu",
-      label: "Menu",
+      label: "Menú",
     },
     ,
     {

@@ -21,7 +21,7 @@ const integrantes = [
 
 function Footer() {
   return (
-    <div className="bg-black h-40 flex items-center justify-center">
+    <div className="bg-black h-64 md:h-40 flex items-center justify-center">
       <ul className="lg:flex lg:justify-center lg:gap-16">
         {integrantes.map((integrante, i) => (
           <li className="text-white text-2xl" key={i}>

@@ -8,7 +8,7 @@ function MainContent() {
     <main>
       <Hero />
       <Titulo
-        texto={"Menu"}
+        texto={"Menú"}
         estilo="w-[500px]  border-t border-dark-brown m-2"
         color="dark-brown"
       />

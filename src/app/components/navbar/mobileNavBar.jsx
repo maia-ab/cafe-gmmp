@@ -9,18 +9,15 @@ function MobileNavbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleOpen = () => {
-    console.log({ isOpen });
     setIsOpen(true);
   };
 
   const handleClose = () => {
-    console.log({ isOpen });
     setIsOpen(false);
   };
 
   return (
     <div className="flex justify-between md:hidden">
-      
       <div className="ml-auto" onClick={handleOpen}>
         <IoMenu size={50} color="beige" />
       </div>
@@ -32,7 +29,7 @@ function MobileNavbar() {
         <div className=" fixed top-10 right-20" onClick={handleClose}>
           <IoCloseOutline size={50} color="beige" />
         </div>
-        <div>
+        <div onClick={handleClose}>
           <ul className="flex flex-col gap-9">
             {rutas.map((link) => (
               <li
@@ -51,5 +48,3 @@ function MobileNavbar() {
 }
 
 export default MobileNavbar;
-
-

@@ -22,8 +22,3 @@ function NavBar() {
 }
 
 export default NavBar;
-/*
-       <Link href={"/"}>
-        <img className="h-20 w-20" src="/gmmp-logo.png" alt="Logo de gmmp" />
-      </Link>
- */

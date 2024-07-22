@@ -1,12 +1,10 @@
 import { IoIosAddCircleOutline } from "react-icons/io";
 import { IoRemoveCircleOutline } from "react-icons/io5";
-import { useState } from "react";
 import { useContext } from "react";
 import { MenuContext } from "../context/MenuContext";
 
 function SumarRestar({ item }) {
-  const { sumarCantidad, restarCantidad, agregarAOrden, eliminarDeOrden } =
-    useContext(MenuContext);
+  const { sumarCantidad, restarCantidad } = useContext(MenuContext);
 
   function sumar() {
     sumarCantidad(item.id);

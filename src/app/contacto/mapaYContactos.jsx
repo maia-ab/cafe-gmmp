@@ -5,8 +5,8 @@ import Titulo from "../components/titulo";
 
 export default function MapaYContactos() {
   return (
-    <div className="flex flex-col items-center justify-center h-[800px]">
-      <Titulo texto={"Contacto"} estilo="w-[500px]  border-t border-dark-brown m-2" />
+    <div className="flex flex-col items-center justify-center h-[1000px] md:h-[800px]">
+      <Titulo texto={"Contacto"} estilo="w-[500px]  border-t border-dark-brown m-2" color="dark-brown" />
       <div className="flex p-8 max-w-[1200px]">
         <div className="flex flex-col lg:flex-row items-center w-full">
           <div className="flex-shrink-0 lg:mr-8 lg:border-r lg:border-dark-brown lg:pr-8">

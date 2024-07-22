@@ -7,7 +7,7 @@ function imageTextComponent({ textFirst = false, imagePath, titulo, texto, image
         {textFirst ? (
           <div className="flex flex-col items-center lg:flex-row  w-full ">
             <div className="flex-1 lg:mr-8">
-              <h1 className="text-4xl font-bold text-dark-brown mb-4">
+              <h1 className="text-4xl font-bold text-dark-brown mb-4 ">
                 {titulo}
               </h1>
               <p className="text-dark-brown text-lg w-96">{texto}</p>

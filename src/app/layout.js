@@ -7,13 +7,13 @@ const lora = Lora({ subsets: ["latin"] });
  
 
 export const metadata = {
-  title: "Cafe Gmmp",
-  description: "Cafe de especialidad en la provincia de Buenos Aires",
+  title: "Café Gmmp",
+  description: "Café de especialidad en la provincia de Buenos Aires",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={`${lora.className} bg-beige`} >
       <Header />
         {children}

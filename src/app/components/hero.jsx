@@ -12,9 +12,9 @@ function Hero() {
         height={1080}
       />
       <div className="flex flex-col justify-center items-center absolute inset-0">
-        <h1 className="text-white text-5xl  md:text-7xl lg:text-8xl">Cafe de Calidad</h1>
-        <hr className='w-[350px] border-t border-white m-2' />
-        <p className="text-white text-lg md:text-2xl lg:text-3xl font-light">Sentite como en casa</p>
+        <h1 className="text-beige text-5xl  md:text-7xl lg:text-8xl">Café de Calidad</h1>
+        <hr className='w-[350px] border-t border-beige m-2' />
+        <p className="text-beige text-lg md:text-2xl lg:text-3xl font-light">Sentite como en casa</p>
       </div>
     </div>
   );
